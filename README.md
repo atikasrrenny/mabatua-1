@@ -96,6 +96,7 @@ Dapat dilihat pada link berikut <a href="https://drive.google.com/file/d/1e-v465
 Dapat dilihat pada link berikut <a href="https://drive.google.com/file/d/1dCzf-q4iQ-97j8Y-sldPqGzBVMX6vA4d/view?usp=drivesdk" target="_blank">APK Savekost</a>
 
 ## Testing
+### Login
 <table>
     <tbody>
         <tr>
@@ -134,6 +135,47 @@ Dapat dilihat pada link berikut <a href="https://drive.google.com/file/d/1dCzf-q
         </tr>
     </tbody>
 </table>
+
+### Login 2
+<table>
+    <tbody>
+        <tr>
+            <td>ID</td>
+            <td>TC02</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Login gagal</td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td>Pengguna melakukan login ke dalam aplikasi dan salah memasukkan password atau username</td>
+        </tr>
+        <tr>
+            <td>Precondictions</td>
+            <td>Pengguna sudah terdaftar dan perangkat seluler terhubung internet</td>
+        </tr>
+        <tr>
+            <td>Steps</td>
+            <td> 
+              <ul>
+               <li>Pengguna memasukkan username yang sesuai</li>
+               <li>Pengguna memasukkan password yang tidak sesuai</li>
+               <li>Menekan tombol login</li>
+              </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Expected Results</td>
+            <td>Pengguna kembali ke halaman login dengan peringatan password yang dimasukkan tidak sesuai</td>
+        </tr>
+        <tr>
+            <td>Results</td>
+            <td>Accepted</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## Documents
 
